@@ -1,0 +1,29 @@
+.home-page {
+  height: 950px;
+  background-color: rgb(12, 12, 48);
+  background-image: url('images/virtual_logo_white_WLMZQFS.png');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+}
+.main-logo {
+  width: 150px;
+}
+#nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: #030625;
+}
+.top-bar {
+  width: 45em;
+  margin-left: 550px;
+  display: flex;
+
+  list-style-type: none;
+  justify-content: space-around;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'roboto', sans-serif;
+  color: white;
+}
