@@ -36,3 +36,19 @@
   margin-right: auto;
   margin-left: auto;
 }
+.main-text{
+  display:flex;
+  justify-content: center;
+  font-family:'roboto';
+  font-size:40px;
+  font-weight:1000;
+  text-align:center;
+  margin-top:10%;
+}
+.catch-main{
+  margin-left:10px;
+  color:blue;
+}
+.catch-text{
+  color:white;
+}
