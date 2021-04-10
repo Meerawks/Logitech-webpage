@@ -1,8 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
 .home-page {
   display: flex;
   flex-direction: column-reverse;
   justify-content: flex-end;
-  height: 970px;
+  height: 980px;
   background-color: rgb(12, 12, 48);
 }
 .main-logo {
@@ -11,29 +20,34 @@
   left: 0px;
 }
 #nav-bar {
-  display: flex;
-  height: 10%;
-  align-items: center;
+
+  /* position: fixed; */
   background-color: #030625;
+  height: 10%;
+  width:100%;
+  align-items: center;
   justify-content: flex-end;
 }
 .top-bar {
+  display:flex;
   width: 45em;
-  margin-left: 550px;
-  display: flex;
+  height:100%;
+  margin-left: 60%;
+
 
   list-style-type: none;
+  align-items: center;
   justify-content: space-around;
 }
 .nav-link {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: 'roboto', sans-serif;
   color: white;
 }
 .mid-logo {
   width: 60%;
-  margin-top: 13%;
+  margin-top: 15%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -80,4 +94,42 @@
 }
 .nav-link:hover{
 color:blue;
+}
+
+.latest{
+  height:600px;
+  margin-top:3%;
+  background-color:#030625;
+}
+.logitech-g{
+  color:white;
+  position: absolute;
+  top:178%;
+  left:10%;
+  right: 10%;
+  font-family: 'roboto',sans-serif;
+  font-size: 5rem;
+  font-weight: 200;
+  text-align: center;
+}
+.player{
+  position: absolute;
+  left: 35%;
+ top:198%;
+}
+
+.latest:hover .logitech-g{
+  color:blue;
+  transition:2s;
+}
+.description{
+  color:white;
+  position: absolute;
+  top:190%;
+  left:10%;
+  right:10%;
+  font-family: 'roboto',sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
 }
