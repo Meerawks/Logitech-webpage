@@ -77,6 +77,9 @@
 .icon {
   color:#030625;
 }
+h2{
+  margin-bottom:20px;
+}
 .grid-1,.grid-2,.grid-3{
   display:flex;
   flex-direction: column;
