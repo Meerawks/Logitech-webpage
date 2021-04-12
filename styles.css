@@ -1,9 +1,11 @@
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
   font-size: 100%;
+  font-family: 'roboto',sans-serif;
   vertical-align: baseline;
   background: transparent;
 }
@@ -11,7 +13,7 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: flex-end;
-  height: 980px;
+  padding-bottom:10%;
   background-color: rgb(12, 12, 48);
 }
 .main-logo {
@@ -23,21 +25,20 @@
 
   /* position: fixed; */
   background-color: #030625;
-  height: 10%;
+  height: 100px;
   width:100%;
   align-items: center;
   justify-content: flex-end;
 }
 .top-bar {
   display:flex;
-  width: 45em;
+  flex-wrap: wrap;
+  width:95%;
   height:100%;
-  margin-left: 60%;
-
-
   list-style-type: none;
   align-items: center;
-  justify-content: space-around;
+  gap:5%;
+  justify-content: flex-end;
 }
 .nav-link {
   text-decoration: none;
@@ -106,19 +107,18 @@ color:blue;
 }
 .logitech-g{
   color:white;
-  position: absolute;
-  top:178%;
-  left:10%;
-  right: 10%;
   font-family: 'roboto',sans-serif;
   font-size: 5rem;
   font-weight: 200;
   text-align: center;
+  transition: 0.3s;
 }
 .player{
-  position: absolute;
-  left: 35%;
- top:198%;
+display: block;
+margin-top:3%;
+margin-right: auto;
+margin-left: auto;
+transition: 0.3s;
 }
 
 .latest:hover .logitech-g{
@@ -126,23 +126,20 @@ color:blue;
   transition:2s;
 }
 .description{
+  margin-top:2%;
   color:white;
-  position: absolute;
-  top:190%;
-  left:10%;
-  right:10%;
   font-family: 'roboto',sans-serif;
   font-size: 20px;
   text-align: center;
 }
 .products{
-  margin-top:10%;
-  margin-bottom: 20%;
+  margin-top:8%;
+  margin-bottom: 8%;
   margin-left: 20%;
   margin-right: 20%;
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-  grid-auto-rows:300px auto ;
+  grid-auto-rows:minmax(300px,1fr);
   font-family: 'roboto',sans-serif;
   grid-gap: 20px;
 }
@@ -161,11 +158,10 @@ transition: 0.3s;
 .head-1{
   font-family: 'roboto',sans-serif;
   font-size: 10em;
-
-  
   color:#030625;
   text-align: center;
   margin-top: 10%;
+  transition: 0.2s;
 }
 #heading{
   font-size: 2em;
@@ -204,4 +200,39 @@ background-size: cover;
 .box-1:hover{
   transform: scale(1.1);
   
+}
+footer{
+padding:10px;
+  background-color: lightgrey ;
+  
+  
+}
+.foot-flex{
+  display:flex;
+  list-style-type: none;
+  gap: 2%;
+  justify-content: center;
+}
+.nav-2{
+
+  color:blue;
+  text-decoration: none;
+}
+#end-span {
+  color:rgb(73, 73, 73);
+  margin-top: 3px;
+display: flex;
+  justify-content: center;
+}
+@media (max-width:700px){
+  .logitech-g{
+    font-size: 3rem;
+  }
+  .head-1{
+    font-size:6em;
+  }
+  .player{
+    margin-top:8%;
+    width: 80%;
+  }
 }
