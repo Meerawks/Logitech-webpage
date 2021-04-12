@@ -175,17 +175,17 @@ transition: 0.3s;
   text-shadow: 2px 2px 5px black;
 }
 .box-1{
-  background-image: url('./images/mice.png');
+  background-image: url('https://github.com/Meerawks/Logitech-webpage/blob/main/Images/mice.png?raw=true');
   background-position:center;
   background-size: cover;
 
 }
 .box-2{
-  background-image: url('./images/keyboards.jpg');
+  background-image: url('https://github.com/Meerawks/Logitech-webpage/blob/main/Images/keyboards.jpg?raw=true');
   background-position:center;
   background-size: cover;
 }
-.box-3{ background-image: url('./images/headsets.jpeg');
+.box-3{ background-image: url('https://github.com/Meerawks/Logitech-webpage/blob/main/Images/headsets.jpeg?raw=true');
 background-position:center;
 background-size: cover;
 }
